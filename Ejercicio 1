@@ -1,0 +1,6 @@
+from collections import deque
+
+cola = deque([101, 258, 780, 840, 950])
+
+if cola:
+    print(cola[0])
